@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# museum images — local only, not for GitHub (use CDN in production)
+/public/images/

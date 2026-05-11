@@ -1,0 +1,114 @@
+URL: https://muzejohrid.mk/presentation-of-the-gis-platform/
+
+Presentation of the GIS platform – NI Institute for protection of monuments of culture and museum – Ohrid
+NI Institute for protection of monuments of culture and museum – Ohrid
+Menu
+Home
+About Us
+History
+Organization
+Publishing activity
+Publications
+Events
+Current events Facebook
+Archive of events
+Event search
+MUSEUM BUILDINGS
+ADMINISTRATIVE BUILDING “RADNICHKA”
+House of Robev Family
+Memorial House of Hristo Uzunov
+Icon Gallery
+Memorial House of Grigor Prlichev
+Museum on Water
+Museum and Cultural Center “Lapidarium”
+Sanation, conservation and restoration of profane objects
+SANATION, CONSERVATION AND RESTORATION OF SACRAL OBJECTS
+COLLECTIONS
+Archaeological collection
+Icons, liturgical and other items
+Collection of manuscripts
+Historical collection
+Contemporary art
+Exhibitions
+Icon gallery
+Historical exhibition “National liberation movement in Ohrid”
+Archaeological exhibition
+ARCHAEOLOGICAL SITES
+Tsar Samuel’s Fortress
+Antique Theater Ohrid
+Plaoshnik
+Polyconchal basilica at Plaoshnik
+Early Christian basilica at the site “Manchevci”
+Prehistoric settlement in the Bay of Bones near Gradishte on Ohrid Lake
+Contact
+Skip to content
+Presentation of the GIS platform
+The Institute for protection of monuments of culture and Museum – Ohrid, organized a closing event for the Presentation of the GIS platform of immovable cultural heritage and archaeological sites of the Ohrid region, held on December 13th at Hotel Nova Riviera – Ohrid.
+The presentation is part of the Project entitled: “
+Strengthening the Capacities to Manage the Cultural Heritage of the Ohrid Region: GIS Database Development Training for the Institute and Museum-Ohrid
+” Related to the donation agreement with UNESCO N˚:4500466546 International Assistance No. 3274,
+https://whc.unesco.org/en/intassistance/3274
+.
+In addition to an introduction to the project by the coordinator, MA Goran Patchev, international experts Rand Epic and Tatjana Mijatovic, as well as domestic experts Ustiana Rechkoska Sikoska and Anastasija Talevska, also had presentations.
+The WEBGIS platform was presented by Gjorgji Stojanov , the representative of the company “INTELLEGENT NETWORK SOLUTION DOO Skopje”
+During the two years of implementation (2023-2024), a series of activities were carried out, such as 3 workshops, 4 missions, 32 site visits, for which three extensive interim reports were submitted to the headquarters of the Unit for Europe and North America at the UNESCO World Heritage Centre in Paris.
+The activities included, among other things, the signing of a Memorandum of Cooperation by the National Institute and Museum Ohrid, and the University of Information Sciences and Technologies “St. Paul the Apostle”, which formalized the previously established cooperation between the two institutions regarding the organization and implementation of the “Regional Restoration Camp” (RRC) in partnership with “Cultural Heritage without Borders – Albania” (CHwB Albania) with which a Memorandum of Cooperation was also signed. Part of the activities were presentations by invited experts from various fields and some took place in the premises of the National Institute and Museum Ohrid and in the field, organized at several locations on the Macedonian and Albanian sides, subsequently, for recording, inventory, digitization and use of modern technology for 3D recording using drones and photogrammetry for the preparation of orthophotos and topographic maps. The results of these activities are the creation of a GIS platform for the immovable cultural heritage and archaeological sites of the Ohrid region, which will provide a WEBGIS database that can be used by the wider public and will be fed with data on the immovable cultural heritage and protected and recorded archaeological sites collected and documented during the project.
+During the project, 6 professionals from the National Institute and Museum Ohrid were trained, as well as 32 trained persons through the Regional Restoration Camp not only from Albania and Macedonia but also from other neighboring Balkan countries. 32 locations were recorded and 3D models and orthophotos (included in GIS) were made of locations in the Ohrid region, including orthophotos of 2 units of the historical cores of Ohrid and Pogradec, with approximately 35,000 photos. Numerous documentation was reviewed and updated and an inventory was made from the territory of the 4 municipalities of Ohrid, Struga, Debrca and Vevcani of 181 diverse cultural heritage sites and 380 build monuments and archaeological sites were recorded. On the Albanian side, 4 cultural monuments were recorded within the borders of the UNESCO Region and 8 within the borders of the Buffer zone of the Ohrid region on the Albanian side.
+This is the first transnational Geographic Information System of the World Heritage Site of the Ohrid Region, and is essential for the management of the hundreds of sites around the lake.
+For the needs of transparent implementation of the project, public procurements were also announced for computer equipment and for hiring an agency to organize events, travel, accommodation and meals for international and domestic experts engaged in the project.
+During numerous visits and monitoring of cultural heritage, it was found that there are different characteristics of the cultural heritage sites around Lake Ohrid, namely: Cave Churches, Religious (Monastery) Complexes, Archaeological Sites and Urban Sites (Settlement Areas).
+Drone images were first processed in the field at low resolution using the photogrammetric software Agisoft and a low-resolution model and orthophoto generation were then inserted into a sample GIS software.
+The main objective of the project was to strengthen the capacity of the staff of the Institute for protection of monuments of culture and Museum – Ohrid to improve the management of cultural heritage spread across the territory of the Ohrid region, taking into account the findings of the Reactive Monitoring Mission (2017) and Mission reports 2024 (Decision 46 COM 7B.44) and in accordance with the Decision of the World Heritage Committee 41 COM 7B.34 (Krakow, 2017 and Baku, 2019). As part of the project, the goal is also to classify and scan (digitize) protected archaeological sites, their selection and organization by priority for easier inventory and archiving. This documentation is necessary not only as a record, but also as a tool for management and monitoring.
+All of this is also one of the goals of the Strategic Plan for the Rehabilitation of the World Natural and Cultural Heritage of the Ohrid Region (2023-2030) which are noted as proposed measures in the Action Plan in the Table of Rehabilitation Measures and United Nations Sustainable Development Goals that are achieved by their implementation, namely: – in point 1.A.10 Strengthening measures for the protection of cultural heritage in the Ohrid region, where the GIS project will assist in the preparation of an Elaborate for the revaluation of cultural heritage with an inventory of cultural goods in the Ohrid region, with identification of the good (borders and contact zone), with a determined existing condition, with defined protection regimes by zones, as well as point 1.A.17 Strengthening the management framework at the cross-border and national level, i.e. Preparation of an inventory for the Municipality of Pogradec similar to the one prepared for the Municipality of Ohrid, all in one common WEB GIS platform. For this, a Memorandum of Cooperation was signed at the event with the Director Xhuljana Avdoli from the Regional Directorate for National Culture (RDNC) Korca, Republic of Albania, where both parties commit to cooperate at an operational level, in organizing projects, exhibitions, educational activities and other initiatives that contribute to the preservation and promotion of cultural heritage and will improve the mechanisms for joint management of the Ohrid region.
+Share this:
+Post
+Author
+Muzej Ohrid
+Posted on
+December 15, 2024
+December 15, 2024
+Categories
+Events
+Post navigation
+Previous
+Previous post:
+Visit of the Austrian ambassador H.E. Martin Palmer
+Next
+Next post:
+Book promotion: OHRID FORTRESS – Coins of the Roman Republic, the Roman Empire and their provinces (211 BC-238 AD)
+Search
+Search for:
+Search
+Categories
+Events
+(43)
+Exibitions
+(27)
+Lectures
+(1)
+Other
+(7)
+Presentations
+(1)
+Recent Events
+The Forum of Slavic Cultures announces the winners of the 2025 Živa Awards – this year inTrebinje, Bosnia and Herzegovina
+October 11, 2025
+International Symposium on Mediterranean and Theoretical Archaeology – LYHNIDA
+September 17, 2025
+Book promotion: OHRID FORTRESS – Coins of the Roman Republic, the Roman Empire and their provinces (211 BC-238 AD)
+May 19, 2025
+Presentation of the GIS platform
+December 15, 2024
+Visit of the Austrian ambassador H.E. Martin Palmer
+July 21, 2024
+https://www.facebook.com/zavodimuzejohrid
+NI Institute for protection of monuments of culture and museum – Ohrid
+The main activity of this institution is the protection, conservation, restoration, revitalization, and presentation of immovable cultural heritage in Ohrid and the Ohrid region, as well as the collection, preservation, documentation, and presentation of movable cultural heritage, or the development of museum and gallery activities in this city.
+About Us
+|
+Events
+Contact
+|
+Facebook
+© 2023 Завод за заштита на спомениците на културата и Музеј - Охрид
+NI Institute for protection of monuments of culture and museum - Ohrid
