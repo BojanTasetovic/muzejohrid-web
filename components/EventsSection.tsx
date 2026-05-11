@@ -100,6 +100,7 @@ export default function EventsSection() {
                       src={event.image}
                       alt={event.title}
                       fill
+                      sizes="112px"
                       className="object-cover transition-transform duration-500 group-hover:scale-105"
                     />
                   </div>

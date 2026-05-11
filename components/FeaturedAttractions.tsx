@@ -150,6 +150,13 @@ function AttractionCard({
           src={attraction.image}
           alt={attraction.title}
           fill
+          sizes={
+            tall
+              ? "(max-width: 1024px) 100vw, 33vw"
+              : wide
+              ? "(max-width: 768px) 100vw, 66vw"
+              : "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+          }
           className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
         />
         {/* Overlay */}

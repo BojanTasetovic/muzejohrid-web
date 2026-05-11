@@ -29,6 +29,7 @@ export default function Hero() {
         alt="Самоилова Тврдина — Охрид"
         fill
         priority
+        sizes="100vw"
         className="object-cover object-center"
       />
 

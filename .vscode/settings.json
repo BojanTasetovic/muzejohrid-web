@@ -1,0 +1,60 @@
+{
+  // === PERFORMANCE — TypeScript ===
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "typescript.tsserver.maxTsServerMemory": 2048,
+  "typescript.tsserver.experimental.enableProjectDiagnostics": false,
+
+  // === PERFORMANCE — Python (не е главен јазик во овој проект) ===
+  "python.languageServer": "None",
+  "python.terminal.shellIntegration.enabled": false,
+
+  // === PERFORMANCE — Copilot (Claude Code го заменува) ===
+  "github.copilot.enable": {
+    "*": false
+  },
+  "github.copilot.nextEditSuggestions.enabled": false,
+  "github.copilot.editor.enableAutoCompletions": false,
+
+  // === PERFORMANCE — GitLens AI ===
+  "gitlens.ai.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.enabled": false,
+
+  // === PERFORMANCE — File watchers ===
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/.next/**": true,
+    "**/public/images/**": true,
+    "**/content/**": true
+  },
+  "files.exclude": {
+    "**/.next": true,
+    "**/node_modules": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/.next": true,
+    "**/public/images": true,
+    "**/content": true,
+    "**/package-lock.json": true
+  },
+
+  // === PERFORMANCE — Editor ===
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "none",
+  "editor.occurrencesHighlight": "off",
+  "editor.selectionHighlight": false,
+  "breadcrumbs.enabled": false,
+  "workbench.editor.enablePreview": false,
+
+  // === PERFORMANCE — Extensions ===
+  "extensions.ignoreRecommendations": true,
+  "npm.autoDetect": "off",
+
+  // === Terminal ===
+  "terminal.integrated.persistentSessionReviveProcess": "never",
+  "terminal.integrated.enablePersistentSessions": false
+}

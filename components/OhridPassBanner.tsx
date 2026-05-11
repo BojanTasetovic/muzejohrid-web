@@ -13,6 +13,8 @@ export default function OhridPassBanner() {
           src="/images/atrakcii/09_slider_crkva_sv_kliment_i_pantelejmon_plaoshnik.jpg"
           alt="Плаошник"
           fill
+          sizes="100vw"
+          loading="eager"
           className="object-cover mix-blend-overlay"
         />
       </div>
