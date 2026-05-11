@@ -1,128 +1,93 @@
-"use client";
-
-import { motion } from "framer-motion";
-import Image from "next/image";
 import Link from "next/link";
 
-const events = [
+const EVENTS = [
   {
-    date: { day: "18", month: "МАЈ" },
-    category: "Меѓународен ден на музеите",
-    title: "27та традиционална изложба по повод Меѓународниот ден на музеите",
-    href: "/nastani/muzejski-den-2024",
-    image: "/images/nastani/D64ArPwgCdizlozba_NUB_1--min.jpg",
+    day: "12",
+    mon: "ЈУН",
+    time: "21:00",
+    title: <>Отворање на <em>Охридско Лето</em></>,
+    loc: "Античкиот Театар",
+    tag: "ФЕСТИВАЛ",
+    href: "/nastani",
   },
   {
-    date: { day: "24", month: "МАЈ" },
-    category: "Свечена академија",
-    title: "Ден на сесловенските просветители — Свети Кирил и Методиј",
-    href: "/nastani/kiril-metodij-2024",
-    image: "/images/nastani/Настан-Европски-денови-на-културата-2024.jpg",
+    day: "23",
+    mon: "ЈУН",
+    time: "19:00 — 24:00",
+    title: <>Ноќта на <em>музеите</em></>,
+    loc: "Сите локации",
+    tag: "ОТВОРЕНО",
+    href: "/nastani",
   },
   {
-    date: { day: "08", month: "СЕП" },
-    category: "Изложба",
-    title: "Јапонска изложба — специјална презентација на јапонската уметност",
-    href: "/nastani/japanska-izlozba",
-    image: "/images/nastani/Плакат-јапонска-изложба.jpg",
+    day: "04",
+    mon: "ЈУЛ",
+    time: "18:00",
+    title: <>Изложба: <em>Реставрирани икони</em> 2025</>,
+    loc: "Куќа на Робевци",
+    tag: "ИЗЛОЖБА",
+    href: "/nastani",
+  },
+  {
+    day: "17",
+    mon: "ЈУЛ",
+    time: "20:30",
+    title: <>Археолошки разговори — <em>Лихнидос</em></>,
+    loc: "Античкиот Театар",
+    tag: "ПРЕДАВАЊЕ",
+    href: "/nastani",
+  },
+  {
+    day: "08",
+    mon: "АВГ",
+    time: "20:00",
+    title: <>Балканска средба на <em>традиционални инструменти</em></>,
+    loc: "Долни Сарај",
+    tag: "КОНЦЕРТ",
+    href: "/nastani",
   },
 ];
 
 export default function EventsSection() {
   return (
-    <section className="bg-ohrid-blue py-24 px-6 md:px-16">
-      <div className="max-w-7xl mx-auto">
+    <section className="section-editorial events-editorial">
+      <div className="section__head">
+        <span className="section__num">§ Nº 02 — Календар</span>
+        <h2 className="section__title">
+          Настани <em>оваа сезона</em>
+        </h2>
+        <p className="section__meta">
+          Од летниот фестивал на Античкиот Театар до ноќта на музеите.
+        </p>
+      </div>
 
-        {/* Header */}
-        <motion.div
-          className="flex items-end justify-between mb-14 border-b border-white/10 pb-8"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.7 }}
-        >
-          <div>
-            <p className="text-byzantine-gold text-xs uppercase tracking-[0.25em] mb-3">
-              Календар
-            </p>
-            <h2 className="font-heading text-white text-4xl md:text-5xl font-semibold">
-              Настани
-            </h2>
-          </div>
-          <Link
-            href="/nastani"
-            className="hidden md:inline-flex items-center gap-2 text-white/50 hover:text-byzantine-gold text-sm tracking-wide transition-colors duration-300 group"
-          >
-            Сите настани
-            <span className="inline-block translate-x-0 group-hover:translate-x-1 transition-transform duration-300">→</span>
+      <div className="event-list">
+        {EVENTS.map((e, i) => (
+          <Link key={i} href={e.href} className="event-row">
+            <div className="event-row__date">
+              <span className="day">{e.day}</span>
+              <span className="mon">
+                {e.mon} · {e.time}
+              </span>
+            </div>
+            <div className="event-row__title">
+              <h3>{e.title}</h3>
+              <span>{e.tag}</span>
+            </div>
+            <div className="event-row__loc">{e.loc}</div>
+            <div className="event-row__tag">{e.tag}</div>
+            <div className="event-row__arrow">→</div>
           </Link>
-        </motion.div>
+        ))}
+      </div>
 
-        {/* Events list — editorial style like cphmuseum.kk.dk */}
-        <div className="space-y-0">
-          {events.map((event, i) => (
-            <motion.div
-              key={event.title}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: i * 0.12 }}
-            >
-              <Link href={event.href} className="group block">
-                <div className="flex items-start gap-6 md:gap-10 py-8 border-b border-white/10 hover:border-byzantine-gold/40 transition-colors duration-300">
-
-                  {/* Date */}
-                  <div className="flex-shrink-0 text-center w-14">
-                    <span className="font-heading text-byzantine-gold text-3xl font-semibold leading-none block">
-                      {event.date.day}
-                    </span>
-                    <span className="text-white/40 text-[10px] uppercase tracking-widest font-sans mt-1 block">
-                      {event.date.month}
-                    </span>
-                  </div>
-
-                  {/* Divider */}
-                  <div className="flex-shrink-0 w-px self-stretch bg-white/10 group-hover:bg-byzantine-gold/40 transition-colors duration-300" />
-
-                  {/* Text */}
-                  <div className="flex-1 min-w-0 pt-1">
-                    <span className="text-stone text-[11px] uppercase tracking-[0.2em] font-sans block mb-2">
-                      {event.category}
-                    </span>
-                    <h3 className="font-heading text-white text-lg md:text-xl font-semibold leading-snug group-hover:text-byzantine-gold transition-colors duration-300 line-clamp-2">
-                      {event.title}
-                    </h3>
-                  </div>
-
-                  {/* Thumbnail — hidden on mobile */}
-                  <div className="hidden lg:block flex-shrink-0 relative w-28 h-20 overflow-hidden">
-                    <Image
-                      src={event.image}
-                      alt={event.title}
-                      fill
-                      sizes="112px"
-                      className="object-cover transition-transform duration-500 group-hover:scale-105"
-                    />
-                  </div>
-
-                  {/* Arrow */}
-                  <div className="flex-shrink-0 self-center text-white/20 group-hover:text-byzantine-gold transition-all duration-300 translate-x-0 group-hover:translate-x-1">
-                    →
-                  </div>
-                </div>
-              </Link>
-            </motion.div>
-          ))}
-        </div>
-
-        <div className="mt-6 md:hidden">
-          <Link
-            href="/nastani"
-            className="text-white/60 text-sm tracking-wide border-b border-white/20 pb-0.5 hover:text-byzantine-gold hover:border-byzantine-gold/40 transition-colors duration-300"
-          >
-            Сите настани →
-          </Link>
-        </div>
+      <div className="events-more">
+        <p className="events-more__meta">
+          Целосниот календар содржи 47 настани до крајот на годината.
+        </p>
+        <Link href="/nastani" className="pill-cta pill-cta--ghost">
+          Цел календар <span>→</span>
+        </Link>
       </div>
     </section>
   );

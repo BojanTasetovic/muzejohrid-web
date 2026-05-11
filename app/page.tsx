@@ -1,7 +1,9 @@
 import Hero from "@/components/Hero";
 import FeaturedAttractions from "@/components/FeaturedAttractions";
+import Pull from "@/components/Pull";
+import MarqueeStrip from "@/components/MarqueeStrip";
 import EventsSection from "@/components/EventsSection";
-import OhridPassBanner from "@/components/OhridPassBanner";
+import Visit from "@/components/Visit";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -9,8 +11,10 @@ export default function Home() {
     <>
       <Hero />
       <FeaturedAttractions />
+      <Pull />
+      <MarqueeStrip />
       <EventsSection />
-      <OhridPassBanner />
+      <Visit />
       <Footer />
     </>
   );
