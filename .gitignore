@@ -40,5 +40,14 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# museum images — local only, not for GitHub (use CDN in production)
-/public/images/
+# museum images — only the 7 used on homepage are tracked; rest stays local
+/public/images/**
+!/public/images/atrakcii/
+!/public/images/zbirki/
+!/public/images/atrakcii/03_slider_kuka_robevci.jpg
+!/public/images/atrakcii/06_slider_samoilova_tvrdina.jpg
+!/public/images/atrakcii/nakolna_naselba_vo_zalivot_na_koskite_galerija_1-600x750.jpg
+!/public/images/atrakcii/02_slider_antichki_teatar.jpg
+!/public/images/atrakcii/07_slider_mozaik_bazilika_plaoshnik.jpg
+!/public/images/atrakcii/samoilova_tvrdina_galerija_1-750x600.jpg
+!/public/images/zbirki/11_slider_galerija_na_ikoni.jpg
